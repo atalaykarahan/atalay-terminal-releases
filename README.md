@@ -12,6 +12,8 @@
   <a href="https://github.com/atalaykarahan/atalay-terminal-releases/releases/latest/download/Atalays-Terminal.dmg"><b>⬇&nbsp; Download for macOS</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/atalaykarahan/atalay-terminal-releases/releases">All versions</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/atalaykarahan/atalay-terminal">Source code</a>
 </p>
 
 <p align="center"><sub>macOS 13 or later · Apple Silicon and Intel · works with Claude Code</sub></p>
@@ -56,6 +58,15 @@ The app isn't notarized by Apple yet, so the first time macOS says it can't veri
 
 You only download it once. When a new version is out, the app tells you and shows what's new; one click installs it and restarts the app, and your chats keep running. Every update is signed, and the app checks the signature before it installs anything.
 
+## Privacy
+
+- The dashboard reads Claude Code's own files on your Mac (`~/.claude`: the session list and transcripts), read only. None of it leaves your Mac: no prompts, no code, no transcripts, no file names, no token counts.
+- The app talks to its server only for the social parts and updates: your hacker name and tag, the app and macOS version, whether you're working each minute (for XP) and your time zone, your friends, requests, messages and status, and the leaderboard.
+- Your Mac is known to the server by a salted hash of its hardware UUID (never the UUID itself) and a random token kept on the Mac.
+- Messages are stored on the server so they reach your friends; they aren't end-to-end encrypted.
+- Settings can hide your active time from friends and your name on the leaderboard.
+- No analytics or tracking libraries. The app's source code is open: [atalaykarahan/atalay-terminal](https://github.com/atalaykarahan/atalay-terminal).
+
 ---
 
 ## Türkçe
@@ -74,3 +85,12 @@ Uygulama henüz Apple'a notarize edilmediği için macOS ilk açılışta "doğr
 **Güncellemeler**
 
 Bir kez indirmen yeter. Yeni sürüm çıkınca uygulama haber verir ve yenilikleri gösterir; tek tıkla kurulur, uygulama yeniden açılır, sohbetlerin çalışmaya devam eder. Her güncelleme imzalıdır, uygulama kurmadan önce imzayı kontrol eder.
+
+**Gizlilik**
+
+- Pano, Claude Code'un Mac'indeki kendi dosyalarını (`~/.claude`: oturum listesi ve transcript'ler) sadece okur. Hiçbiri Mac'inden çıkmaz: prompt, kod, transcript, dosya adı ya da token sayısı gönderilmez.
+- Uygulama sunucusuyla sadece sosyal kısımlar ve güncellemeler için konuşur: hacker adın ve etiketin, uygulama ve macOS sürümü, her dakika çalışıp çalışmadığın (XP için) ve saat dilimin, arkadaşların, istekler, mesajlar ve durumun, bir de leaderboard.
+- Sunucu Mac'ini, donanım kimliğinin tuzlanmış bir hash'i (kimliğin kendisi asla değil) ve Mac'inde duran rastgele bir token ile tanır.
+- Mesajlar arkadaşlarına ulaşsın diye sunucuda saklanır; uçtan uca şifreli değildir.
+- Ayarlardan aktif süreni arkadaşlarından, adını leaderboard'dan gizleyebilirsin.
+- Hiçbir analitik ya da takip kütüphanesi yok. Uygulamanın kaynak kodu açık: [atalaykarahan/atalay-terminal](https://github.com/atalaykarahan/atalay-terminal).
