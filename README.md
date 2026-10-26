@@ -16,6 +16,29 @@
 
 <p align="center"><sub>macOS 13 or later · Apple Silicon and Intel · works with Claude Code</sub></p>
 
+<p align="center">
+  <img src="assets/preview.gif" width="900" alt="Claude Code sessions orbiting live, with their subagents, tool calls, files, web research and spend">
+</p>
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/dashboard.jpg" alt="The dashboard"></td>
+    <td width="50%"><img src="assets/chat.jpg" alt="A Claude chat in its own window"></td>
+  </tr>
+  <tr>
+    <td><b>Every session on one screen.</b> Chats orbit while they work; subagents, tool calls, files, web research and spend update live, and the ones that need you glow red.</td>
+    <td><b>Each chat in its own window</b>, running in the background: close it or quit the app and Claude keeps working.</td>
+  </tr>
+  <tr>
+    <td><img src="assets/profile.jpg" alt="Your profile with level and rank"></td>
+    <td><img src="assets/friend.jpg" alt="A friend's card with their last 7 days"></td>
+  </tr>
+  <tr>
+    <td><b>Levels and ranks</b> for the time you actively work, from Academy Student up to Kage.</td>
+    <td><b>Friends:</b> their level, and how many hours they worked each day.</td>
+  </tr>
+</table>
+
 ---
 
 ## Install
