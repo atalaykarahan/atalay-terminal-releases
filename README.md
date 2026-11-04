@@ -5,7 +5,7 @@
 <h1 align="center">Atalay's Terminal</h1>
 
 <p align="center">
-  A HUD for your Claude Code sessions on the Mac and on Windows: every chat on a live orbit map, terminals as flying cars, friends and messages.
+  A HUD for your AI coding sessions (Claude Code, Codex, Antigravity) on the Mac and on Windows: every chat on a live orbit map, terminals as flying cars, friends and messages.
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
   <a href="https://github.com/atalaykarahan/atalay-terminal">Source code</a>
 </p>
 
-<p align="center"><sub>macOS 13 or later (Apple Silicon and Intel) · Windows 10 or 11 (64-bit) · works with Claude Code</sub></p>
+<p align="center"><sub>macOS 13 or later (Apple Silicon and Intel) · Windows 10 or 11 (64-bit) · works with Claude Code, Codex and Antigravity</sub></p>
 
 <p align="center">
   <img src="assets/preview.gif" width="900" alt="Claude Code sessions orbiting live, with their subagents, tool calls, files, web research and spend">
@@ -30,7 +30,7 @@
     <td width="50%"><img src="assets/chat.jpg" alt="A Claude chat in its own window"></td>
   </tr>
   <tr>
-    <td><b>Every session on one screen.</b> Chats orbit while they work; subagents, tool calls, files, web research and spend update live, and the ones that need you glow red.</td>
+    <td><b>Every session on one screen.</b> Chats orbit while they work; subagents, tool calls, files, web research and spend update live, and the ones that need you glow red. Codex and Antigravity sessions orbit too, with what they run, when they wait for your approval, and Antigravity's subagents.</td>
     <td><b>Each chat in its own window</b>, running in the background: close it or quit the app and Claude keeps working.</td>
   </tr>
   <tr>
@@ -70,7 +70,7 @@ You only download it once. When a new version is out, the app tells you and show
 
 ## Privacy
 
-- The dashboard reads Claude Code's own files on your Mac (`~/.claude`: the session list and transcripts), read only. None of it leaves your Mac: no prompts, no code, no transcripts, no file names, no token counts.
+- The dashboard reads Claude Code's own files on your Mac (`~/.claude`: the session list and transcripts), and Codex's and Antigravity's own logs (`~/.codex/sessions`, `~/.gemini/antigravity-cli`), read only. None of it leaves your Mac: no prompts, no code, no transcripts, no file names, no token counts.
 - The app talks to its server only for the social parts and updates: your hacker name and tag, the app and macOS version, whether you're working each minute (for XP) and your time zone, your friends, requests, messages and status, and the leaderboard.
 - Your Mac is known to the server by a salted hash of its hardware UUID (never the UUID itself) and a random token kept on the Mac.
 - On Windows the same goes for your PC: Claude Code's files are in `%USERPROFILE%\.claude`, the server gets the Windows version, and the PC is known by a salted hash of Windows' MachineGuid.
@@ -105,7 +105,7 @@ Bir kez indirmen yeter. Yeni sürüm çıkınca uygulama haber verir ve yenilikl
 
 **Gizlilik**
 
-- Pano, Claude Code'un Mac'indeki kendi dosyalarını (`~/.claude`: oturum listesi ve transcript'ler) sadece okur. Hiçbiri Mac'inden çıkmaz: prompt, kod, transcript, dosya adı ya da token sayısı gönderilmez.
+- Pano, Claude Code'un Mac'indeki kendi dosyalarını (`~/.claude`: oturum listesi ve transcript'ler), Codex ile Antigravity'nin kendi kayıtlarını (`~/.codex/sessions`, `~/.gemini/antigravity-cli`) sadece okur. Hiçbiri Mac'inden çıkmaz: prompt, kod, transcript, dosya adı ya da token sayısı gönderilmez.
 - Uygulama sunucusuyla sadece sosyal kısımlar ve güncellemeler için konuşur: hacker adın ve etiketin, uygulama ve macOS sürümü, her dakika çalışıp çalışmadığın (XP için) ve saat dilimin, arkadaşların, istekler, mesajlar ve durumun, bir de leaderboard.
 - Sunucu Mac'ini, donanım kimliğinin tuzlanmış bir hash'i (kimliğin kendisi asla değil) ve Mac'inde duran rastgele bir token ile tanır.
 - Windows'ta da aynısı PC'n için geçerli: Claude Code'un dosyaları `%USERPROFILE%\.claude`'dadır, sunucuya Windows sürümü gider, PC'n Windows'un MachineGuid'inin tuzlanmış bir hash'iyle tanınır.
