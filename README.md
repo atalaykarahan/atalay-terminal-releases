@@ -1,21 +1,21 @@
 <p align="center">
-  <img src="assets/icon.png" width="168" alt="Atalay's Terminal">
+  <img src="assets/icon.png" width="168" alt="Orbiterm">
 </p>
 
-<h1 align="center">Atalay's Terminal</h1>
+<h1 align="center">Orbiterm</h1>
 
 <p align="center">
   A HUD for your AI coding sessions (Claude Code, Codex, Antigravity) on the Mac and on Windows: every chat on a live orbit map, terminals as flying cars, friends and messages.
 </p>
 
 <p align="center">
-  <a href="https://github.com/atalaykarahan/atalay-terminal-releases/releases/latest/download/Atalays-Terminal.dmg"><b>⬇&nbsp; Download for macOS</b></a>
+  <a href="https://github.com/atalaykarahan/orbiterm-releases/releases/latest/download/Atalays-Terminal.dmg"><b>⬇&nbsp; Download for macOS</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/atalaykarahan/atalay-terminal-releases/releases/download/windows/Atalays-Terminal-Setup.exe"><b>⬇&nbsp; Download for Windows</b></a>
+  <a href="https://github.com/atalaykarahan/orbiterm-releases/releases/download/windows/Atalays-Terminal-Setup.exe"><b>⬇&nbsp; Download for Windows</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/atalaykarahan/atalay-terminal-releases/releases">All versions</a>
+  <a href="https://github.com/atalaykarahan/orbiterm-releases/releases">All versions</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/atalaykarahan/atalay-terminal">Source code</a>
+  <a href="https://github.com/atalaykarahan/orbiterm">Source code</a>
 </p>
 
 <p align="center"><sub>macOS 13 or later (Apple Silicon and Intel) · Windows 10 or 11 (64-bit) · works with Claude Code, Codex and Antigravity</sub></p>
@@ -50,13 +50,13 @@
 ### macOS
 
 1. Download **Atalays-Terminal.dmg** (link above) and open it.
-2. Drag **Atalay's Terminal** onto **Applications**.
+2. Drag **Orbiterm** onto **Applications**.
 3. Open it from Applications.
 
 The app isn't notarized by Apple yet, so the first time macOS says it can't verify it. Allow it once:
 
-- **System Settings → Privacy & Security**, scroll down to *Security* and click **Open Anyway** next to Atalay's Terminal, then **Open**.
-- Or in Terminal: `xattr -dr com.apple.quarantine "/Applications/Atalay's Terminal.app"`
+- **System Settings → Privacy & Security**, scroll down to *Security* and click **Open Anyway** next to Orbiterm, then **Open**.
+- Or in Terminal: `xattr -dr com.apple.quarantine "/Applications/Orbiterm.app"`
 
 ### Windows
 
@@ -76,7 +76,7 @@ You only download it once. When a new version is out, the app tells you and show
 - On Windows the same goes for your PC: Claude Code's files are in `%USERPROFILE%\.claude`, the server gets the Windows version, and the PC is known by a salted hash of Windows' MachineGuid.
 - Messages are stored on the server so they reach your friends; they aren't end-to-end encrypted.
 - Settings can hide your active time from friends and your name on the leaderboard.
-- No analytics or tracking libraries. The app's source code is open: [atalaykarahan/atalay-terminal](https://github.com/atalaykarahan/atalay-terminal).
+- No analytics or tracking libraries. The app's source code is open: [atalaykarahan/orbiterm](https://github.com/atalaykarahan/orbiterm).
 
 ---
 
@@ -85,13 +85,13 @@ You only download it once. When a new version is out, the app tells you and show
 **Kurulum (macOS)**
 
 1. Yukarıdaki **Download for macOS** bağlantısından **Atalays-Terminal.dmg**'yi indirip aç.
-2. **Atalay's Terminal**'i **Applications** klasörüne sürükle.
+2. **Orbiterm**'i **Applications** klasörüne sürükle.
 3. Applications'tan aç.
 
 Uygulama henüz Apple'a notarize edilmediği için macOS ilk açılışta "doğrulanamadı" der. Bir kez izin ver:
 
-- **Sistem Ayarları → Gizlilik ve Güvenlik**, en alta in ve Atalay's Terminal'in yanındaki **Yine de Aç**'a, sonra **Aç**'a bas.
-- Ya da Terminal'de: `xattr -dr com.apple.quarantine "/Applications/Atalay's Terminal.app"`
+- **Sistem Ayarları → Gizlilik ve Güvenlik**, en alta in ve Orbiterm'in yanındaki **Yine de Aç**'a, sonra **Aç**'a bas.
+- Ya da Terminal'de: `xattr -dr com.apple.quarantine "/Applications/Orbiterm.app"`
 
 **Kurulum (Windows)**
 
@@ -111,4 +111,4 @@ Bir kez indirmen yeter. Yeni sürüm çıkınca uygulama haber verir ve yenilikl
 - Windows'ta da aynısı PC'n için geçerli: Claude Code'un dosyaları `%USERPROFILE%\.claude`'dadır, sunucuya Windows sürümü gider, PC'n Windows'un MachineGuid'inin tuzlanmış bir hash'iyle tanınır.
 - Mesajlar arkadaşlarına ulaşsın diye sunucuda saklanır; uçtan uca şifreli değildir.
 - Ayarlardan aktif süreni arkadaşlarından, adını leaderboard'dan gizleyebilirsin.
-- Hiçbir analitik ya da takip kütüphanesi yok. Uygulamanın kaynak kodu açık: [atalaykarahan/atalay-terminal](https://github.com/atalaykarahan/atalay-terminal).
+- Hiçbir analitik ya da takip kütüphanesi yok. Uygulamanın kaynak kodu açık: [atalaykarahan/orbiterm](https://github.com/atalaykarahan/orbiterm).
